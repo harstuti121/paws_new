@@ -1,0 +1,28 @@
+/* Smooth Hover Effects */
+button:hover,
+li:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dropdown Styling */
+button:focus,
+button:active {
+  outline: none;
+}
+
+/* Profile Dropdown */
+div.relative {
+  position: relative;
+}
+
+div.absolute {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 50;
+}
+
+button:hover .fa-user-circle {
+  color: #ffcc00; /* Change icon color on hover */
+}

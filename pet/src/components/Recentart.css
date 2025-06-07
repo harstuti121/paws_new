@@ -1,0 +1,168 @@
+/* Section Styling */
+.recent-article-section {
+  padding: 4rem 0;
+  background-color: #fefce8; /* Light yellow background */
+}
+
+/* Container */
+.article-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Headings */
+.article-heading {
+  font-weight: bold;
+  color: #c2410c; /* Dark orange */
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.article-heading:nth-of-type(2) {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Swiper Slider */
+.article-slider {
+  padding: 0 1rem;
+}
+
+/* Swiper Slide */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect on Swiper Slide */
+.swiper-slide:hover {
+  transform: translateY(-10px); /* Lift the slide */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Card */
+.article-card {
+  width: 350px;
+  height: 450px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 16px;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+/* Hover effect on card */
+.article-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Enhance shadow */
+}
+
+/* Image */
+.article-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.article-card:hover .article-image {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  filter: brightness(0.85); /* Dim image when hovered */
+}
+
+/* Article Content */
+.article-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Date */
+.article-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.article-month {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Divider */
+.article-divider {
+  height: 50px;
+  width: 2px;
+  background: #ddd;
+  margin: 0 12px;
+}
+
+/* Title */
+.article-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.article-card:hover .article-title {
+  color: #c2410c; /* Change title color on hover */
+}
+
+/* Description */
+.article-description {
+  font-size: 0.9rem;
+  color: #666;
+  height: 50px;
+  overflow: hidden;
+}
+
+/* Author */
+.article-author {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #888;
+}
+
+/* View More Link */
+.article-link {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  display: block;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.article-link:hover {
+  color: #1d4ed8; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Style */
+.article-link:active {
+  color: #0f4c9b; /* Darker blue when clicked */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .article-card {
+    width: 90%;
+  }
+}

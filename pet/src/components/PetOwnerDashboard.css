@@ -1,0 +1,9 @@
+
+.pet-dashboard-title {
+    font-size: 2.5rem;        /* Adjust the font size */
+    font-weight: bold;
+    text-align: center;
+    color: #2d3748;           /* Dark gray color */
+    margin-top: 50px;         /* Adjust this value to control space above the title */
+    margin-bottom: 20px;      /* Optional: space below the title */
+}

@@ -1,0 +1,19 @@
+.Cartpage{
+    display: flex;          /* Use 'flex' to enable Flexbox */
+    justify-content: center; /* Centers cards horizontally */  
+    margin: 8%;
+}
+/* CartPage.css */
+.Cartpage img {
+    width: 200px; /* Set a fixed width for all images */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+
+  .Cartpage h3 {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    font-weight: 600; /* Tailwind's font-semibold */
+    margin-bottom: 0.5rem; /* Space below title */
+    text-align: right; /* Align title to the right */
+  }
