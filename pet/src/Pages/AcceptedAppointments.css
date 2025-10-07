@@ -1,0 +1,30 @@
+.accepted-appointments-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  margin-top: 430px;
+  font-family: Arial, sans-serif;
+}
+
+.appointments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.appointment-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.chat-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #03a9f4;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}

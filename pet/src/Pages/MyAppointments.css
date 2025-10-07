@@ -1,0 +1,77 @@
+.owner-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.owner-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.owner-loading,
+.owner-error,
+.owner-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.owner-cards {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.owner-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.owner-pet-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.owner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.owner-status {
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+}
+
+.bg-green {
+  background-color: #4caf50;
+}
+
+.owner-notes {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.owner-chat-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.owner-chat-btn:hover {
+  background-color: #0056b3;
+}
